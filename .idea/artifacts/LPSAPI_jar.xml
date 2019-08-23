@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LPSAPI:jar">
+    <output-path>$PROJECT_DIR$/../EXPORTS</output-path>
+    <root id="archive" name="LPSAPI.jar">
+      <element id="module-output" name="LPSAPI" />
+    </root>
+  </artifact>
+</component>

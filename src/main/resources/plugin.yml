@@ -1,0 +1,6 @@
+name: LPSAPI
+version: ${project.version}
+main: lpsapi.lpsapi.LPSAPI
+api-version: 1.13
+authors: [Zoon20X]
+description: API for LevelPoints

@@ -8,4 +8,6 @@ public interface LevelPointsInterface {
      void giveEXP(Player player, int EXP);
 
      public int checkEXP(Player player);
+
+     int checkLevel(Player player);
 }

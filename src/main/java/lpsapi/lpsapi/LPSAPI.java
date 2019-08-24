@@ -2,7 +2,6 @@ package lpsapi.lpsapi;
 
 import levelpoints.lp.LP;
 import lpsapi.Events.EXP;
-import lpsapi.Events.LevelPointsInterface;
 import lpsapi.Events.LevelUP;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

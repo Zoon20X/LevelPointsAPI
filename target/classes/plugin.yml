@@ -1,5 +1,5 @@
 name: LPSAPI
-version: 1.0-SNAPSHOT
+version: 0.0.1
 main: lpsapi.lpsapi.LPSAPI
 api-version: 1.13
 authors: [Zoon20X]

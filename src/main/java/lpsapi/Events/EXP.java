@@ -20,4 +20,12 @@ public class EXP implements LevelPointsInterface {
        return expamount;
 
     }
+
+    @Override
+    public int checkLevel(Player player){
+        int level = lpapi.getPlayersConfig().getInt(player.getName() + ".level");
+
+        return level;
+
+    }
 }

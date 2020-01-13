@@ -7,18 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a0fedd-90c9-4c3a-82ee-571b93dc3d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/Events/EXP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/Events/EXP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelPointsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelPointsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelUP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/lpsapi/LPSAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/lpsapi/LPSAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LPSAPI.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/Events/EXP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/Events/EXP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelPointsInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelPointsInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/lpsapi/LPSAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/lpsapi/LPSAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelUP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelUP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,15 +45,21 @@
   </component>
   <component name="ProjectId" id="1PoYryYZj8YCL5ski8Sk0O9B7CS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="lpsapi" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AbilityCraft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,18 +72,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lpsapi.Events" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="LevelPoints build" type="MavenRunConfiguration" factoryName="Maven">
@@ -107,6 +101,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,7 +127,11 @@
       <workItem from="1566543458572" duration="432000" />
       <workItem from="1566543901951" duration="9397000" />
       <workItem from="1566557371419" duration="1288000" />
-      <workItem from="1566598649215" duration="3197000" />
+      <workItem from="1566598649215" duration="3925000" />
+      <workItem from="1567292954270" duration="3963000" />
+      <workItem from="1568184417368" duration="2635000" />
+      <workItem from="1572511124148" duration="3313000" />
+      <workItem from="1578442630031" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="changed the version">
       <created>1566608145918</created>
@@ -130,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566608145919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed the version">
+      <created>1566609490440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566609490440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,5 +169,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed the version" />
     <option name="LAST_COMMIT_MESSAGE" value="changed the version" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1581" y="232" key="#Project_Structure" timestamp="1578443047680">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1581" y="232" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578443047680" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1578881997475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578881997475" />
+    <state x="-1693" y="148" key="SettingsEditor" timestamp="1578442780135">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1693" y="148" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578442780135" />
   </component>
 </project>

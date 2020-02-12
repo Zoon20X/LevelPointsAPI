@@ -1,24 +1,22 @@
 package lpsapi.Events;
 
-import levelpoints.lp.LP;
+import levelpoints.levelpoints.LevelPoints;
+
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 
 import java.io.File;
 import java.io.IOException;
 
 public class EXP implements LevelPointsInterface {
-    private LP lpapi = (LP) Bukkit.getServer().getPluginManager().getPlugin("LP");
+    private LevelPoints lpapi = (LevelPoints) Bukkit.getServer().getPluginManager().getPlugin("LevelPoints");
 
     @Override
     public void giveEXP(Player player, int EXP){
-        try {
-            lpapi.CustomXP(player, EXP, 0);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        lpapi.uc.GainEXP(player, EXP);
 
     }
 
@@ -27,7 +25,7 @@ public class EXP implements LevelPointsInterface {
         File userdata = new File(lpapi.userFolder, player.getUniqueId() + ".yml");
         FileConfiguration UsersConfig = YamlConfiguration.loadConfiguration(userdata);
 
-        int expamount = UsersConfig.getInt(player.getName() + ".EXP.Amount");
+        int expamount = UsersConfig.getInt("EXP.Amount");
 
        return expamount;
 
@@ -37,7 +35,7 @@ public class EXP implements LevelPointsInterface {
     public int checkLevel(Player player){
         File userdata = new File(lpapi.userFolder, player.getUniqueId() + ".yml");
         FileConfiguration UsersConfig = YamlConfiguration.loadConfiguration(userdata);
-        int level = UsersConfig.getInt(player.getName() + ".level");
+        int level = UsersConfig.getInt("Level");
 
         return level;
 

@@ -7,16 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a0fedd-90c9-4c3a-82ee-571b93dc3d29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/LevelPoints.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/LevelPoints.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LPSAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LPSAPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/Events/EXP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/Events/EXP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelUP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/Events/LevelUP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lpsapi/lpsapi/LPSAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lpsapi/lpsapi/LPSAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LPSAPI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/Events/EXP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/Events/EXP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelUP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lpsapi/Events/LevelUP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566609490440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated to work with LevelPoints 1.1.9.8">
+      <created>1578882013946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578882013946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,20 +172,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed the version" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the version" />
+    <MESSAGE value="Updated to work with LevelPoints 1.1.9.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to work with LevelPoints 1.1.9.8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1581" y="232" key="#Project_Structure" timestamp="1578443047680">
+    <state x="-1581" y="232" key="#Project_Structure" timestamp="1581504426864">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1581" y="232" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578443047680" />
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1578881997475">
+    <state x="-1581" y="232" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581504426864" />
+    <state x="339" y="232" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579887991750" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1578882011862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578881997475" />
-    <state x="-1693" y="148" key="SettingsEditor" timestamp="1578442780135">
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578882011862" />
+    <state x="-1180" y="276" key="FileChooserDialogImpl" timestamp="1581505371826">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1693" y="148" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578442780135" />
+    <state x="-1180" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581505371826" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579943122486" />
+    <state x="-1693" y="148" key="SettingsEditor" timestamp="1581504160739">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1693" y="148" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1581504160739" />
+    <state x="227" y="148" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1579402448632" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578882015388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578882015388" />
   </component>
 </project>

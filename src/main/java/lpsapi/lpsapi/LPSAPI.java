@@ -1,6 +1,7 @@
 package lpsapi.lpsapi;
 
-import levelpoints.lp.LP;
+import levelpoints.levelpoints.LevelPoints;
+
 import lpsapi.Events.EXP;
 import lpsapi.Events.LevelUP;
 import org.bukkit.Bukkit;
@@ -10,7 +11,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class  LPSAPI extends JavaPlugin implements LPSAPIInterface {
     public LevelUP levelupevent;
-    private LP lpapi;
+    private LevelPoints lpapi;
+
 
 
     public EXP exp;
@@ -20,11 +22,10 @@ public final class  LPSAPI extends JavaPlugin implements LPSAPIInterface {
     public void onEnable() {
         // Plugin startup logic
 
-        lpapi = (LP) Bukkit.getServer().getPluginManager().getPlugin("LP");
+        lpapi = (LevelPoints) Bukkit.getServer().getPluginManager().getPlugin("LevelPoints");
 
         if (lpapi != null) {
             exp = new EXP();
-
             getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "=============================");
             getServer().getConsoleSender().sendMessage(ChatColor.DARK_AQUA + "LevelPoints API");
             getServer().getConsoleSender().sendMessage(ChatColor.DARK_AQUA + "Developer: Zoon20X");

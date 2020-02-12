@@ -13,7 +13,7 @@ public class LevelUP extends Event {
 
     public LevelUP(Player player, int level) {
         this.player = player;
-        this.level = (level + 1);
+        this.level = (level);
     }
 
     public HandlerList getHandlers() {
